@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="example.html">
+</head>
+<body>
+    <form action="example.html" method="post">
+
+        <h1>PAPA JOHN'S</h1>
+
+    <section>
+        <label for="fname">first name   </label>
+        <input type="text" name="first name" id="fname">
+        <br>
+        <label for="lname">Last name</label>
+        <input type="text" name="lastname" id="lname">
+        <br>
+        <label for="number">Phone number</label>
+        <input type="text" name="number" id="number">
+    </section>
+        <hr>
+            <h3>create your own pizza</h3>
+            
+    <section>
+        <label for="amount"><h4>PLEASE PROVIDE QUANTITY</h4>
+        </label>
+        <input type="number" name="amount" id="amount" min="0">
+    </section>
+    <section>
+        <label for="dones"><h4>How much mayonnaise/ketchup would you like</h4>
+        </label>
+        <span>little</span>
+        <input type="range" name="dones" id="dones" min="0" max="5" step="1">
+        <span>Lot</span>
+    </section>
+            <h4>What kind of pizza do you want?</h4>
+    <section>
+        <input type="radio" name="kind1" id="peperoni" value="peperoni">
+        <label for="peperoni">peperoni
+        </label>
+        <input type="radio" name="kind1" id="four cheese" value="four cheese">
+        <label for="four cheese">four cheese
+        </label><br>
+        <input type="radio" name="kind1" id="margarita" value="margarita">
+        <label for="margarita">margarita</label>
+        <input type="radio" name="kind1" id="piinaple pizza" value="piinaple pizza">
+        <label for="piinaple pizza">piinaple pizza</label>
+    </section>
+         <h4>What do you want to add</h4>
+    <section>
+        <input type="checkbox" name="opption1" id="opption1" value="opption1">
+        <label for="opption1">extra cheese</label>
+        <input type="checkbox" name="opption2" id="opption2" value="opption2">
+        <label for="opption2">olives</label>
+        <br>
+        <input type="checkbox" name="opption3" id="opption3" value="opption3"> 
+        <label for="opption3">tuna</label>
+        <input type="checkbox" name="opption4" id="opption4" value="opption4">
+        <label for="opption4">jalapeno</label>
+    </section>
+    <hr>
+    <section>
+        <label for="text">YOUR ADDRESS</label>
+        <br>
+        <textarea name="address" id="text" cols="30" rows="3"></textarea>
+    </section>
+    <section>
+        <input type="submit" vuale="submit" id="submit">
+    </section>
+    </form>
+</body>
+</html>

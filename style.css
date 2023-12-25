@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(28, 153, 17);
+   text-align: center;
+   
+}
+
+form{
+    background-color: red;
+    text-align: center;
+    line-height: 29.5px;
+    border-radius: 15px;
+    width: 600px;
+    display: inline-block;
+    margin-top: 1px
+}
+form hr{
+    width: 500px;
+}
+#submit{
+   
+    display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  }
+  #text{
+    background-color: #999;
+    border-radius: 10px;
+
+  }
+#number{
+    margin-right: 25px;
+}
+.body2{
+    text-align: center;
+    background-color: rgb(117, 7, 7);
+}
